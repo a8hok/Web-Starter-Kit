@@ -1,4 +1,4 @@
-# GyanMatrix Intern starter kit :books:
+# [GyanMatrix](https://gyanmatrix.com/) Intern starter kit :books:
 
 ## `prerequisite`
 
