@@ -9,3 +9,9 @@
 ### `Git and Github`
 - [Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)<br>
 - [Github](https://www.youtube.com/watch?v=RGOj5yH7evk&t=1s)<br>
+
+### `About Browser`
+- [How browser works?](https://www.youtube.com/watch?v=DuSURHrZG6I)<br>
+
+### `Chrome developer tools`
+- [developer tool](https://www.youtube.com/watch?v=y0ue4ZZlZwg)<br>
