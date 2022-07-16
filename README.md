@@ -1,4 +1,4 @@
-# GyanMatrix Starter to become a  UI developer :books:
+# GyanMatrix Intern starter kit :books:
 
 ## `prerequisite`
 
