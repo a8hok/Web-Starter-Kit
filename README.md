@@ -1,4 +1,4 @@
-# Starter to become a  UI developer
+# GyanMatrix Starter to become a  UI developer :books:
 
 ## `prerequisite`
 
