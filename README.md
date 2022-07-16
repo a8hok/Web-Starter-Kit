@@ -1,5 +1,10 @@
 # [GyanMatrix](https://gyanmatrix.com/) Intern starter kit :books:
 
+Gyanmatrix introduces a program for college pursuing students called EWL(Earn While Learn). EWL is a huge oppourtunity for students to work with
+Enterprise level projects along with tech geeks woking in Gyanmatrix with paid internship. Top performing students will placed in Gyanmatrix. <br>
+
+part of this program we have listed the following learning kit for student assessment, it has 20hrs of content.
+
 ## `prerequisite`
 
 - ### `Install Chrome`
