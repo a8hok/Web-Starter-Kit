@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mukesh Kumar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lato:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -13,59 +17,93 @@
             <h1>m mukesh kumar</h1>
         </dev>
         <ul>
-            <li><a href="#">about_me</a></li>
-            <li><a href="#">what_do_i_know</a></li>
-            <li><a href="#">my_projects</a></li>
+            <li><a href="#amoutMe">about_me</a></li>
+            <li><a href="#mySkill">what_do_i_know</a></li>
+            <li><a href="#resentProject">my_projects</a></li>
             <li><button type="button"><a href="#">contect_me</a></button></li>
         </ul>
     </nav>
     <header>
         <dev class="header-main">
-            <img src="image/hader image.png" alt="not found">
-            <dev class="header-text">
-                <h1>m mukesh kumar</h1>
-                <p>“A good programmer is someone who always looks both ways before crossing a one-way street.”</p>
-                <button type="button">hire me</button>
+            <div class="left cont">
+                <img src="image/hader image.png" alt="not found">
+            </div>
+            <dev class="right cont">
+                <dev class="header-text">
+                    <h1>m mukesh kumar</h1>
+                    <p>“A good programmer is someone who always looks both ways before crossing a one-way street.”</p>
+                    <button type="button"><a href="#">hire me</a></button>
+                </dev>
             </dev>
         </dev>
-        <?xml version="1.0" encoding="utf-8"?>
-        <svg width="1919.5px" height="99.00012px" viewBox="0 0 1919.5 99.00012" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-            <path d="M960 99L0 -6.10352e-05L1920 0.00012207L960 99Z" id="Triangle" fill="#BFA2DB" fill-opacity="0.6" fill-rule="evenodd" stroke="none" />
-        </svg>
+        <dev class="svg">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="1919.5px" height="99.00012px" viewBox="0 0 1919.5 99.00012" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                <path d="M960 99L0 -6.10352e-05L1920 0.00012207L960 99Z" id="Triangle" fill="#000000" fill-opacity="0.6" fill-rule="evenodd" stroke="none" />
+            </svg>
+            <svg width="1919px" height="100px" viewBox="0 0 1919 100" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-4.99989 0L956.648 100L1919 0L1919 100L-4.99989 100L-4.99989 0Z" id="Rectangle-24" fill="#F3F1F5" fill-rule="evenodd" stroke="none" />
+            </svg>
+        </dev>
+        
     </header>
     <main>
         <section class="about-me" id="amoutMe">
             <h1 class="tital">about me</h1>
-            <img src="image/about me profile.png" alt="not found">
-            <dev class="about-me-text">
-                <p>hello world ,i am mukesh kumar a programer and a front-end devaloper who is aiming to become a full-stuck devaloper
-                    i have completed my schooling in kendriya vidyalaya no.1 arakkonam at ranipet district,know studying in electronics and conmmunication (ECE) 1st  year at  sri shakthi institute of engineering and technology,coimbatore.</p>
-            </dev>
+            <dev class="about-flex">
+                <img src="image/about me profile.png" alt="not found">
+                <dev class="about-me-text">
+                    <p>hello world ,i am mukesh kumar a programer and a front-end devaloper who is aiming to become a full-stuck devaloper
+                        i have completed my schooling in kendriya vidyalaya no.1 arakkonam at ranipet district,know studying in electronics and conmmunication (ECE) 1st  year at  sri shakthi institute of engineering and technology,coimbatore.</p>
+                </dev>
+            </dev>    
         </section>
         <section class="what-do-know" id="mySkill">
             <h1 class="tital">what do i know</h1>
-            <div class="graph">
-                <h4>c++</h4>
-                <div class="bar" id="cpp"></div>
-                <h4>c</h4>
-                <div class="bar" id="c"></div>
-                <h4>html</h4>
-                <div class="bar" id="html"></div>
-                <h4>css</h4>
-                <div class="bar" id="css"></div>
-                <h4>javascript</h4>
-                <div class="bar" id="js"></div>
-                <h4>python</h4>
-                <div class="bar" id="py"></div>
-            </div>
+            <dev class="know-flex">
+                <div class="graph">
+                    <div >
+                        <h4>c++</h4>
+                        <div class="bar" style="--i:92" id="cpp"></div>    
+                    </div>
+                    <dev>
+                        <h4>c</h4>
+                        <div class="bar" style="--i:89" id="c"></div>    
+                    </dev>
+                    <dev>
+                        <h4>html</h4>
+                        <div class="bar" style="--i:98" id="html"></div>    
+                    </dev>
+                    <dev>
+                        <h4>css</h4>
+                        <div class="bar" style="--i:80" id="css"></div>    
+                    </dev>
+                    <dev>
+                        <h4>javascript</h4>
+                        <div class="bar" style="--i:75" id="js"></div>    
+                    </dev>
+                    <dev>
+                        <h4>python</h4>
+                        <div class="bar" style="--i:85" id="py"></div>    
+                    </dev>
+                    <dev>
+                        <h4>nodeJs</h4>
+                        <div class="bar" style="--i:73" id="py"></div>    
+                    </dev>
+                    <dev>
+                        <h4>mongoDB</h4>
+                        <div class="bar" style="--i:91" id="py"></div>    
+                    </dev>
+                </div>    
+            </dev>
         </section>
         <section class="resent-project" id="resentProject">
             <?xml version="1.0" encoding="utf-8"?>
             <svg width="1920px" height="125px" viewBox="0 0 1920 125" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0L1920 0L1920 125C1920 125 1487.25 41.4104 1000.5 65.1001C513.753 88.7898 0 0 0 0Z" id="Rectangle-21" fill="#F0D9FF" fill-rule="evenodd" stroke="none" />
+                <path d="M0 0L1920 0L1920 125C1920 125 1487.25 41.4104 1000.5 65.1001C513.753 88.7898 0 0 0 0Z" id="Rectangle-21" fill="#757575" fill-rule="evenodd" stroke="none" />
             </svg>
-            <dev class="poject main">
-                <h1 class="tital">my resent projects</h1>
+            <h1 class="tital">my resent projects</h1>
+            <dev class="poject-main">
                 <dev class="project" id="weather">
                     <img src="image/weather.png" alt="not found">
                     <h3>dynamic weather</h3>
@@ -76,7 +114,7 @@
                     <h3>sudoku solver</h3>
                     <p>i have build a sudoku solver using prue html css and javascript,with the help of backtrcking</p>
                 </dev>
-                <dev class="project" id="analog clock">
+                <dev class="project" id="analog">
                     <img src="image/analog.png" alt="not found">
                     <h3>analog clock</h3>
                     <p>i have build a website useing peue html ,css and javascript which show the real time in the form of analog clock</p>
@@ -86,24 +124,27 @@
     </main>
     <footer>
         <dev class="foot-link">
-            <img src="image/email.png" alt="not found">
+            <img src="image/github.png" alt="not found">
             <img src="image/instagram.png" alt="not found">
             <img src="image/discord.png" alt="not found">
         </dev>
-        <dev class="foot-element">
-            <h3>my collage</h3>
-            <p>sri shakthi institute of engineering and technology
-                Sri Shakthi Nagar, L & T By - Pass,
-                Chinniyampalayam Post, Coimbatore - 62.</p>
+        <dev class="foot-buttom">
+            <dev class="foot-element">
+                <h3>my collage</h3>
+                <p>sri shakthi institute of engineering and technology
+                    Sri Shakthi Nagar, L & T By - Pass,
+                    Chinniyampalayam Post, Coimbatore - 62.</p>
+            </dev>
+            <dev class="foot-element">
+                <p>made with love by mukesh kumar</p>
+            </dev>
+            <dev class="foot-element">
+                <h3>my school</h3>
+                <p>Kendriya Vidyalaya No.1 Arakkonam
+                    INS, Rajali Arakkonam, Arakkonam, Tamil Nadu 631006</p>
+            </dev>    
         </dev>
-        <dev class="foot-element">
-            <p>made with love by mukesh kumar</p>
-        </dev>
-        <dev class="foot-element">
-            <h3>my school</h3>
-            <p>Kendriya Vidyalaya No.1 Arakkonam
-                INS, Rajali Arakkonam, Arakkonam, Tamil Nadu 631006</p>
-        </dev>
+        
     </footer>
 </body>
 </html>

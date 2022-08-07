@@ -1,0 +1,453 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --lighPrimary:#F3F1F5;
+    --primary:#F0D9FF;
+    --darckPrimary:#000000;
+    --secondary:#C499BA;
+    --accent1:#FF7396;
+    --accent2:#F4E06D;
+    --primaryText:#000000;
+    --secondaryText:#757575;
+    --bg:#FFFFDE;
+    --footer:#32424A;
+    --head: 'Inconsolata', 'monospace';
+    --para: 'Lato', 'sans-serif';
+    --logo: 'Satisfy', 'cursive';
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--lighPrimary);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--secondaryText);
+    border-radius:  5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--primaryText);
+}
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+    background-color: var(--lighPrimary);
+    scroll-behavior: smooth;
+}
+
+/*#######################################################################
+tital in main
+#######################################################################*/
+.tital{
+    font-size: 3rem;
+    font-family: var(--head);
+    text-transform: capitalize;
+    position: absolute;
+    top:10%;
+    left:10%;
+}
+.tital::before{
+    content: "";
+    width: 15rem;
+    height:0px;
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 0px;
+    left:-3rem;
+    border: 0.5px solid var(--primaryText);
+    z-index: 2;
+}
+.tital::after{
+    content:"";
+    width:1rem;
+    height:1rem;
+    background-color: var(--primaryText);
+    border-radius: 5rem;
+    position: absolute;
+    bottom: 0px;
+    left:-3rem;
+    transform: translate(-50%,50%);
+}
+/*#######################################################################
+navbar
+#######################################################################*/
+nav{
+    width:100vw;
+    height:10vh;
+    background-color: var(--darckPrimary);
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+    gap:30px;
+    position: sticky;
+    top:0px;
+    left:0px;
+    z-index: 100;
+}
+nav .nav-tital{
+    width:40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 4rem;
+}
+nav .nav-tital img{
+    height:80%;
+    width:auto;
+}
+nav .nav-tital h1{
+    font-size: 4rem;
+    font-family: var(--logo);
+    font-weight: 300;
+    padding-left: 3rem;
+    color:var(--lighPrimary)
+}
+nav ul{
+    width: 50%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    height: 80%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:border 0.5s;
+    color: var(--lighPrimary);
+}
+a:link,a:visited,a{
+    text-align: center;
+    color: inherit;
+    font-size: 2rem;
+    font-family: var(--head);
+}
+nav ul li button{
+    height: 100%;
+    width: 100%;
+    background-color: var(--accent2);
+    border: 1px solid var(--secondaryText);
+    border-radius: 1rem;
+}
+nav a:hover,nav a:active,li:hover,li:active{
+    background-color: var(--accent1);
+    color:var(--lighPrimary);
+    border-radius: 2rem;
+}
+nav button a:hover{
+    background-color: transparent;
+    color:var(--primaryText)
+}
+nav button a:active,button:active{
+    background-color:#f4db4d ;
+}
+
+/*#######################################################################
+header
+#######################################################################*/
+header{
+    width:100%;
+    height:90vh ;
+    background-image: url("../image/header_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header .header-main{
+    width: 100vw;
+    height:calc(90vh - calc(0.0515759833289919 * 100vw));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#00000099;
+}
+header .header-main .cont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width:auto;
+    height: 80%;
+    opacity: 0.9;
+}
+header .svg{
+    position: relative;
+    height: 10vh;
+    width:100vw;
+}
+header svg{
+    width: 100vw;
+    height: auto;
+    position:absolute;
+    top:0px;
+    left: 0px;
+}
+.header-text{
+    width:80%;
+    height: 80%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.header-text h1{
+    font-size: 4rem;
+    font-family: var(--head);
+    text-transform: capitalize;
+    color: var(--lighPrimary);
+    text-decoration: underline;
+}
+.header-text p{
+    font-size: 2rem;
+    font-family: var(--para);
+    color:var(--primary);
+    line-height: 3rem;
+}
+.header-text button{
+    width:10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--accent1);
+    border: 1px solid(var(--darckPrimary));
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.header-text button:active{
+    background-color: #dd5c7c;
+}
+/*#######################################################################
+main-about me
+#######################################################################*/
+.about-me{
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+.about-me .about-flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-me img{
+    width:auto;
+    height:50%;
+    
+}
+.about-me-text{
+    width: 60%;
+    height: 30%;
+    font-size: 2rem;
+    background-color: #32424A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-5%;
+    z-index: -1;
+}
+.about-me-text p{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-family: var(--para);
+    color: var(--lighPrimary);
+}
+
+/*#######################################################################
+what do i know
+#######################################################################*/
+.what-do-know{
+    width:100vw;
+    height:100vh;
+    background-color: var(--secondaryText);
+    position: relative;
+}
+.know-flex{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:5rem;
+}
+.graph{
+    width: 100rem;
+    height: 50rem;
+    background-color: var(--primary);
+    border-radius: 3rem;
+    display: grid;
+    grid-template-rows: repeat(auto,1fr 2fr);
+    grid-auto-columns: 90%;
+    justify-content: center;
+    align-content: space-around;
+    box-shadow: 2px 2px 5px var(--secondary);
+}
+.graph h4{
+    font-size: 1.5rem;
+    font-family: var(--para);
+    padding-left: 2rem;
+}
+.graph .bar{
+    height: 1rem;
+    background-color: var(--lighPrimary);
+    box-shadow: 0px 0px 2px var(--darckPrimary);
+    position: relative;
+}
+.bar::before{
+    content: "";
+    width: calc(var(--i)*1%);
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 2;
+    background: linear-gradient(to right,#50D890,#4F98CA);
+}
+.bar::after{
+    counter-reset: variable var(--i);
+    content: counter(variable)"%";
+    position: absolute;
+    right: -2.5rem;
+    top:0px;
+}
+
+/*#######################################################################
+my project
+#######################################################################*/
+.resent-project{
+    width:100vw;
+    height:100vh;
+    background-image: url(../image/project_bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.resent-project svg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.poject-main{
+    width:100%;
+    height:100%;
+    background-color: #00000099;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project{
+    width:200px;
+    height:300px;
+    border: 1px solid var(--darckPrimary);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    box-shadow: 0px 5px 5px var(--darckPrimary);
+    position: relative;
+    transition: 0.5s;
+}
+#analog img{
+    border-radius: 2rem;
+}
+.project img{
+    width:75px;
+    height:auto;
+    margin-bottom: 2rem;
+}
+.project h3{
+    font-size: 1.5rem;
+    font-family: var(--head);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--lighPrimary);
+}
+.project p{
+    font-size: 1rem;
+    font-family: var(--para) ;
+    width:90%;
+    height:auto;
+    color:var(--primary) ;
+    text-align: center;
+}
+.project:hover{
+    bottom: 10px;
+}
+/*#######################################################################
+footer
+#######################################################################*/
+footer{
+    width:100vw;
+    height:auto;
+    background-color: var(--footer);
+    display: flex;
+    flex-direction: column;
+}
+footer .foot-link{
+    width:100%;
+    height:10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .foot-link img{
+    width:auto;
+    height:5rem;
+    margin: 0px 2rem;
+    border-radius: 5rem;
+    background-color: var(--lighPrimary);
+}
+footer .foot-buttom{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.foot-element{
+    width:300px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot-element h3{
+    font-size: 2rem;
+    font-family: var(--head);
+    text-align: center;
+    color:var(--lighPrimary);
+}
+.foot-element p{
+    font-size: 1rem;
+    font-family: var(--para);
+    text-align: center;
+    color:var(--primary)
+}
