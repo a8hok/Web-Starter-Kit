@@ -89,6 +89,9 @@ nav{
     left:0px;
     z-index: 100;
 }
+nav .saidbar{
+    display: none;
+}
 nav .nav-tital{
     width:40%;
     height: 100%;
@@ -178,8 +181,8 @@ header .header-main .cont{
     align-items: center;
 }
 header img{
-    width:auto;
-    height: 80%;
+    width:70%;
+    height: auto;
     opacity: 0.9;
 }
 header .svg{
@@ -288,7 +291,7 @@ what do i know
     padding-top:5rem;
 }
 .graph{
-    width: 100rem;
+    width: 80rem;
     height: 50rem;
     background-color: var(--primary);
     border-radius: 3rem;
@@ -319,13 +322,6 @@ what do i know
     left:0px;
     z-index: 2;
     background: linear-gradient(to right,#50D890,#4F98CA);
-}
-.bar::after{
-    counter-reset: variable var(--i);
-    content: counter(variable)"%";
-    position: absolute;
-    right: -2.5rem;
-    top:0px;
 }
 
 /*#######################################################################
@@ -429,6 +425,7 @@ footer .foot-buttom{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 5rem;
 }
 .foot-element{
@@ -438,6 +435,7 @@ footer .foot-buttom{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5rem;
 }
 .foot-element h3{
     font-size: 2rem;
@@ -451,3 +449,105 @@ footer .foot-buttom{
     text-align: center;
     color:var(--primary)
 }
+
+/*#######################################################################
+media quires
+#######################################################################*/
+@media screen and (max-width:1080px){
+    nav ul{
+        width:60%;
+    }
+    html{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:850px){
+    nav .saidbar{
+        display: inline-block;
+    }
+    nav ul{
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        padding-bottom: 3rem;
+        flex-direction: column;
+        top:10vh;
+        right:0px;
+        background-color: var(--darckPrimary);
+        transition: 1s;
+    }
+    nav ul li{
+        width:60%;
+    }
+    .unactive{
+        transform: scale(0);
+    }
+    .active{
+        transform: scale(1);
+    }
+    nav .nav-tital{
+        width:80%
+    }
+    .about-me-text{
+        width:80%;
+    }
+}
+@media screen and (max-width:600px){
+    html{
+        font-size: 6px;
+    }
+    header .header-main{
+        flex-direction: column;
+    }
+    header .header-main .cont{
+        height: 50%;
+        width:100%;
+    }
+    header img{
+        width:auto;
+        height: 90%;
+    }
+    .about-me-text{
+        width:90%;
+    }
+    .about-me img{
+        height:35%;
+        width:auto;
+    }
+    .resent-project{
+        height: 150vh;
+    }
+    .poject-main{
+        align-items:flex-end;
+    }
+    footer .foot-buttom{
+        justify-content: center;
+    }
+    .bar::after{
+        content: "";
+    } 
+}
+@media screen and (max-width:400px){
+    .about-me-text{
+        width:100%;
+    }
+    .resent-project{
+        height:1150px;
+    }
+    .poject-main{
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .project{
+        margin-bottom: 4rem;
+    }
+}
+@media screen and (max-height:600px){
+    .what-do-know{
+        height:600px;
+    }
+    .resent-project{
+        min-height: 600px;
+    }
+} 
