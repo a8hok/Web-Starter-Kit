@@ -89,7 +89,7 @@ nav{
     left:0px;
     z-index: 100;
 }
-nav .saidbar{
+nav .sidebar{
     display: none;
 }
 nav .nav-tital{
@@ -462,7 +462,7 @@ media quires
     }
 }
 @media screen and (max-width:850px){
-    nav .saidbar{
+    nav .sidebar{
         margin: auto 2rem;
         display: inline-block;
         height: 80%;
@@ -472,21 +472,23 @@ media quires
         position: absolute;
         width: 300px;
         height: 150px;
-        padding-bottom: 3rem;
         flex-direction: column;
         top:10vh;
         right:0px;
         background-color: var(--darckPrimary);
         transition: 1s;
+        overflow: hidden;
     }
     nav ul li{
         width:60%;
     }
     .unactive{
-        transform: scale(0);
+        height: 0px;
+        /* transform: scaleY(0); */
     }
     .active{
-        transform: scale(1);
+        height: 150px;
+        /* transform: scaleY(1); */
     }
     nav .nav-tital{
         width:80%
