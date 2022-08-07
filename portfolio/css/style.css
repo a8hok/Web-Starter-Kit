@@ -458,12 +458,15 @@ media quires
         width:60%;
     }
     html{
-        font-size: 8px;
+        font-size: 9px;
     }
 }
 @media screen and (max-width:850px){
     nav .saidbar{
+        margin: auto 2rem;
         display: inline-block;
+        height: 80%;
+        width:auto;
     }
     nav ul{
         position: absolute;
