@@ -88,6 +88,7 @@ nav{
     top:0px;
     left:0px;
     z-index: 100;
+    transition: 0.5s;
 }
 nav .sidebar{
     display: none;
@@ -315,7 +316,7 @@ what do i know
 }
 .bar::before{
     content: "";
-    width: calc(var(--i)*1%);
+    width: calc(var(--i) * 1%);
     height: 100%;
     position: absolute;
     top:0px;
