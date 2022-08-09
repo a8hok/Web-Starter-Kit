@@ -477,8 +477,9 @@ media quires
         top:10vh;
         right:0px;
         background-color: var(--darckPrimary);
-        transition: 1s;
+        transition: 0.5s;
         overflow: hidden;
+        z-index: 100;
     }
     nav ul li{
         width:60%;

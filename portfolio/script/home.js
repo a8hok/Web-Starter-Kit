@@ -31,24 +31,16 @@ const observeNav=new IntersectionObserver((ent,obs)=>{
 },{root:null,threshold:0.3});
 observeNav.observe(head);
 
-
-
-//! graph AnimationEffect
-const bar=document.querySelectorAll(".bar");
-bar.forEach((ele)=>{
-    let insial=0;
-    let final=getComputedStyle(ele).getPropertyValue("--i");
-    let inc=final/100;
-    let barWidth=window.getComputedStyle(ele,":before");
-    function animat(){
-        console.log(insial);
-        barWidth["width"]=`${insial}%`;
-        insial+=inc;
-        if(insial<=final){
-            setTimeout(10,animat());
-        }
-        return;
-    }
-    animat();
-    
+//! footer link
+const github=document.querySelector("img[src='image/github.png']");
+github.addEventListener('click',()=>{
+    window.location.href="https://github.com/mukesh1308";
+});
+const sec=document.querySelector("img[src='image/instagram.png']");
+sec.addEventListener('click',()=>{
+    window.location.href="#";
+});
+const third=document.querySelector("img[src='image/discord.png']");
+third.addEventListener('click',()=>{
+    window.location.href="#";
 });

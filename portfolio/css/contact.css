@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --LightPrimary:#F3F1F5;
+    --primary:#F0D9FF;
+    --secondry:#C499BA;
+    --Accent:#FF7396;
+    --text:#000000;
+    --border:#757575;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--LightPrimary);
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height: 30%;
+    background-color: #00000099;
+    border-radius: 2rem;
+    border: 1px solid var(--border);
+    box-shadow: 0px 0px 5px var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header-text{
+    width:80%;
+    height:fit-content;
+    margin: auto 5rem;
+}
+.header-text h1{
+    font-size: 5rem;
+    color:white;
+    text-transform: capitalize;
+}
+.header-text p{
+    font-size: 1.5rem;
+    color:var(--LightPrimary)
+}
+form{
+    width: 800px;
+    height: fit-content;
+    background-color: var(--primary);
+    border-radius: 2rem;
+    border: 1px solid var(--border);
+    box-shadow: 0px 0px 5px var(--border);
+}
+form div{
+    width: 90%;
+    height:5rem;
+    margin: 2rem auto;
+}
+form div label{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-left: 2rem ;
+}
+input{
+    width: calc(100% - 2rem);
+    height: 3rem;
+    border-radius: 2rem;
+    border: 1px solid var(--border);
+    padding-left: 2rem;
+}
+.cont{
+    height: 15rem;
+}
+.cont textarea{
+    width: calc(100% - 2rem);
+    height: 13rem;
+    border-radius: 2rem;
+    border: 1px solid var(--border);
+    padding-left: 2rem;
+
+}
+.submit input{
+    font-size: 1.5rem;
+    height: 5rem;
+    width:fit-content;
+    padding: 0px 4rem;
+    margin: 0px 1rem;
+    color: var(--LightPrimary);
+}
+input[type="submit"]{
+    background-color: var(--Accent);
+}
+input[type="reset"]{
+    background-color: var(--secondry);
+} 
+
+@media screen and (max-width:800px) {
+    form{
+        width:100%;
+    }
+}
+@media screen and (max-width:360px){
+    html{
+        font-size: 9px;
+    }
+}
+@media screen and (max-height:600px){
+    body{
+        height: fit-content;
+    }
+    header{
+        height: 125px;
+    }
+}
