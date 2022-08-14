@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    list-style: none;
+}
+:root{
+    --bg:#EFEFEF;
+    --primarText:#000000;
+    --secondryText:#757575;
+}
+html{
+    font-size: 10px;
+}
+body{
+    width: 100vw;
+    height: fit-content;
+    overflow-x: hidden;
+    background-color: var(--bg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+/*#######################################################################
+profile
+#######################################################################*/
+.profile{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius:50%;
+    position: relative;
+}
+.profile img{
+    -webkit-clip-path:circle(58% at 50% 50%);
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.profile::before{
+    content: "";
+    width: calc( 100% + 20px);
+    height: calc( 100% + 20px);
+    background: linear-gradient(45deg,#FF9F29,#FF280F,#FE3CA1,#930AF8);
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+    left:-10px;
+    z-index: -1;
+}
+/*#######################################################################
+aside
+#######################################################################*/
+
+aside{
+    width: 350px;
+    background-color: white;
+    border:1px solid var(--secondryText);
+    border-radius: 3rem;
+    position: sticky;
+    top:0px;
+    left:0px;
+}
+.logo{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 80%;
+    height: auto;
+}
+.aside-profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aside-image{
+    width: 200px;
+    height: 200px;
+    margin: 3rem;
+}
+.aside-profile h1{
+    font-size: 2rem;
+    color: var(--primarText);
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.profile-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.profile-details h3{
+    font-size: 1.5rem;
+    color: var(--secondryText);
+    text-align: center;
+}
+.profile-details h4{
+    font-size: 1.5rem;
+    color: var(--primarText);
+    text-align: center;
+}
+.aside-opsion img{
+    height: 20px;
+    width:auto;
+    margin: 3px 2rem;
+}
+.aside-opsion a{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 25px;
+    text-decoration: none;
+    color: var(--primarText);
+}
+
+/*#######################################################################
+main
+#######################################################################*/
+nav{
+    width:100%;
+    height:80px;
+    display: flex;
+}
+
+
+.storie-icon{
+    width: 80px;
+    height: 80px;
+}
