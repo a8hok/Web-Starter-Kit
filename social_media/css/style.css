@@ -22,7 +22,9 @@ body{
     align-items: flex-start;
     justify-content: space-between
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
 /*#######################################################################
 profile
 #######################################################################*/
@@ -32,17 +34,11 @@ profile
     background-color: rgb(255, 255, 255);
     border: 5px solid rgb(255, 255, 255);
     border-radius:50%;
+    margin: 5px;
     position: relative;
-}
-.profile img{
-    -webkit-clip-path:circle(58% at 50% 50%);
-    height: 100%;
-    width: auto;
-    overflow: hidden;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .profile::before{
     content: "";
@@ -55,6 +51,29 @@ profile
     left:-10px;
     z-index: -1;
 }
+
+.non-profile{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:50%;
+    margin: 5px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 1px solid var(--secondryText); 
+}
+/*#######################################################################
+tital
+#######################################################################*/
+.tital{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-left: 2rem;
+}
+
 /*#######################################################################
 aside
 #######################################################################*/
@@ -130,14 +149,148 @@ aside{
 /*#######################################################################
 main
 #######################################################################*/
+main{
+    width:calc(100vw - 380px);
+    background-color: white;
+    border: 1px solid var(--secondryText);
+    border-radius:3rem;
+    position: relative;
+    z-index: -10;
+}
 nav{
     width:100%;
     height:80px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.search{
+    width:25rem;
+    height: 4rem;
+    padding-left: 0.5rem;
+    background-color: white;
+    border-radius: 2rem;
+    outline: 1px solid var(--secondryText);
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.search img{
+    height: 70%;
+    width: auto;
+}
+.search input{
+    width:15rem;
+    height: 100%;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+.icon{
+    margin-right: 4rem;
+}
+.icon img{
+    height: 3rem;
+    width:auto;
+    margin: 0px 1rem;
+}
 
+/*#######################################################################
+stories
+#######################################################################*/
+/* .stories{
+    overflow-x: scroll;
+} */
 .storie-icon{
     width: 80px;
     height: 80px;
+    margin: 0px 1rem;
+    display: inline-block;
 }
+.stories .row{
+    width:fit-content;
+    height: 12rem;
+    overflow-y: scroll ;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+}
+/*#######################################################################
+reel
+#######################################################################*/
+
+.reel-icon-cont{
+    width:200%;
+    height:28rem;
+    margin-bottom:2rem ;
+    overflow: scroll;
+}
+.reel-icon{
+    width:15rem;
+    height: 25rem;
+    border: 1px solid var(--secondryText);
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+.reel-profile{
+    width:50px;
+    height: 50px;
+    margin: 1rem auto;
+}
+.reel-icon p{
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #0000008a;
+    font-size: 1rem;
+}
+
+/*#######################################################################
+posts
+#######################################################################*/
+.post-cont .cols{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 3rem;
+}
+.post,.post-img{
+    width: 100%;
+    height: fit-content;
+}
+.post-img{
+    display: flex;
+    justify-content: center;
+}
+.post-img img{
+    width:95%;
+    height: auto;
+    border-radius: 2rem;
+    border: 1px solid var(--secondryText);
+    margin: 1rem auto;
+}
+.post-disc{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.post-disc div{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2ren;
+    display: inline-block;
+}
+.post-disc img{
+    width:2rem;
+    height:auto;
+    display: inline-block;
+}
+
+
