@@ -79,6 +79,12 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
+    position: fixed ;
+    width: 100%;
+    background: crimson;
+    font-family: 'Ubuntu',sans-serif    ;
+}
+.navbar{
     position: fixed;
     width: 100%;
     z-index: 999;
