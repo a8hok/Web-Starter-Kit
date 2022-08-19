@@ -220,6 +220,7 @@ about us
     margin-top: 2rem;
     margin-left: 1.5rem;
     border-radius: 3rem;
+    border: 1px solid var(--textSecondary);
 }
 .about-right button a:link,.about-right button a:visited{
     color: var(--textPrimary);
@@ -242,6 +243,7 @@ course
 
 .course-section{
     background-color: white;
+    padding-bottom: 5rem;
 }
 .course-main{
     width: 100%;
@@ -251,10 +253,10 @@ course
     align-items: center;
 }
 .course-cont{
-    width: 65rem;
+    width: 70rem;
     height:fit-content;
     display: grid;
-    grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));
+    grid-template-columns:repeat(auto-fill,minmax(20rem,1fr));
     grid-gap: 5rem;
     padding: 5rem;
     background-color: var(--bg);
@@ -275,4 +277,180 @@ course
 }
 .course div{
     margin-left: 1rem;
+}
+.course h4{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: var(--textPrimary);
+}
+.course p{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: var(--textSecondary); 
+}
+.course:hover,.course:active{
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+.course:hover h4,.course:active h4{
+    color: white;
+    text-shadow: 0px 0px 3px var(--textPrimary);
+}
+.course:hover p,.course:active p{
+    color: var(--bg);
+    text-shadow: 0px 0px 3px var(--textSecondary);
+}
+
+/*#######################################################################
+educators
+#######################################################################*/
+
+.educators{
+    padding-bottom: 5rem;
+}
+.educators-main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+.educator-profile{
+    width: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid var(--textSecondary);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+.educator-profile h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.educator-profile:hover{
+    cursor: pointer;
+}
+.educator-profile:hover .profile{
+    background-size: 105%;
+}
+
+/*#######################################################################
+contact
+#######################################################################*/
+
+.contact{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 5rem;
+}
+.contact-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-main form{
+    width: 70rem;
+    background-color: #F0D9FF;
+    border-radius: 3rem;
+    padding: 2rem 2rem;
+} 
+.contact-main input{
+    width: calc(100% - 3rem);
+    height: 3rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    margin: 1rem 0px;
+    border: 1px solid var(--textSecondary);
+}
+.contact-main label{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--textPrimary);
+    margin-top: 2rem;
+}
+.contact-main textarea{
+    width: calc(100% - 6rem);
+    height: 8rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+.contact-main button{
+    padding: 0.5rem 3rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    border: 1px solid var(--textSecondary);
+}
+.contact-main button:hover{
+    cursor: pointer;
+}
+.contact-main button[type="submit"]{
+    background-color: var(--accent);
+    color: var(--bg);
+}
+.contact-main button[type="submit"]:active{
+    background-color: #d91a4a;
+}
+.contact-main button[type="reset"]{
+    background-color: var(--secondary);
+    color: var(--textPrimary);
+}
+.contact-main button[type="reset"]:active{
+    background-color: #c8921c;
+}
+
+/*#######################################################################
+footer
+#######################################################################*/
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--primary);
+    padding: 5rem 0px;
+}
+.foot-block{
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot-block h2{
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.foot-block p{
+    font-size: 1.5rem;
+    color: var(--bg);
+    text-align: center;
+}
+.foot-block a:link,.foot-block a:visited{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: var(--bg);
+    margin: auto;
+}
+.foot-block img{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.foot-block img:hover{
+    cursor: pointer;
 }
