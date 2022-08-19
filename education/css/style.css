@@ -25,11 +25,10 @@ tital
 
 .tital{
     width: 100%;
-    height: 8rem;
+    height: 16rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 7rem;
+    align-items: flex-end;
 }
 .tital h1{
     color: black;
@@ -40,6 +39,7 @@ tital
     text-align: center;
     border-bottom: 3px solid black;
     position: relative;
+    margin-bottom: 2rem;
 }
 .tital h1::after{
     content: "";
@@ -155,7 +155,7 @@ header{
     margin-left: 2rem;
     background-color: var(--secondary);
     border:none;
-    border-radius: 1rem;
+    border-radius: 1rem;;
 }
 .header-left a:link,.header-left a:visited{
     color: black;
@@ -166,6 +166,8 @@ header{
     width: auto;
     height: 2rem;
     margin-left: 1rem;
+    position: relative;
+    transition: 0.5s;
 }
 .header-right img{
     width: 60%;
@@ -178,4 +180,99 @@ header svg{
     position: absolute;
     bottom: 0px;
     left: 0px;
+}
+.header-left button:hover img{
+    left: 0.5rem;
+    height: 2.2rem;
+}
+
+/*#######################################################################
+about us
+#######################################################################*/
+
+.about{
+    width: 100%;
+    min-height: 100vh;
+}
+.about-left img{
+    width: 70%;
+    height: auto;
+}
+.about-right{
+    justify-content: flex-start;
+}
+.about-right h1{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    color: var(--textPrimary);
+}
+.about-right p{
+    font-size: 2rem;
+    color: var(--textSecondary);
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.about-right button{
+    background-color: var(--secondary);
+    width: fit-content;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    border-radius: 3rem;
+}
+.about-right button a:link,.about-right button a:visited{
+    color: var(--textPrimary);
+}
+.about-right button:hover{
+    background-color: var(--accent);
+}
+.about-right button:hover a{
+    color: var(--bg);
+}
+.about-main{
+    width: 100%;
+    height: calc(100vh - 16rem);
+    display: flex;
+}
+
+/*#######################################################################
+course
+#######################################################################*/
+
+.course-section{
+    background-color: white;
+}
+.course-main{
+    width: 100%;
+    min-height: calc(100vh - 16rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-cont{
+    width: 65rem;
+    height:fit-content;
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));
+    grid-gap: 5rem;
+    padding: 5rem;
+    background-color: var(--bg);
+    border-radius: 3rem;
+}
+.course{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid var(--textPrimary);
+    border-radius: 2rem;
+}
+.course img{
+    width: auto;
+    height: 5rem;
+}
+.course div{
+    margin-left: 1rem;
 }
