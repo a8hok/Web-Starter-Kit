@@ -24,3 +24,14 @@ const observeNav=new IntersectionObserver((ent,obs)=>{
     })
 },{root:null,threshold:0.3});
 observeNav.observe(head);
+
+//! footer link
+document.querySelector("img[src='image/instagram.png']").addEventListener('click',()=>{
+    window.location.href="#";
+});
+document.querySelector("img[src='image/facebook.png']").addEventListener('click',()=>{
+    window.location.href="#";
+});
+document.querySelector("img[src='image/twitter.png']").addEventListener('click',()=>{
+    window.location.href="#";
+});
