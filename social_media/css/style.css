@@ -1,7 +1,6 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
     font-family: 'Play', sans-serif;
     list-style: none;
 }
@@ -199,9 +198,9 @@ nav{
 /*#######################################################################
 stories
 #######################################################################*/
-/* .stories{
-    overflow-x: scroll;
-} */
+.stories{
+    width: 100%;
+}
 .storie-icon{
     width: 80px;
     height: 80px;
@@ -209,9 +208,10 @@ stories
     display: inline-block;
 }
 .stories .row{
-    width:fit-content;
+    width:100%;
     height: 12rem;
-    overflow-y: scroll ;
+    overflow-x: auto ;
+    white-space: nowrap;
     /* display: flex;
     align-items: center;
     justify-content: flex-start; */
@@ -221,10 +221,11 @@ reel
 #######################################################################*/
 
 .reel-icon-cont{
-    width:200%;
+    width:100%;
     height:28rem;
     margin-bottom:2rem ;
-    overflow: scroll;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 .reel-icon{
     width:15rem;
