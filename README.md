@@ -41,5 +41,5 @@ As part of this program, we have listed the following Student Assessment Learnin
     - [Social Media](https://www.youtube.com/watch?v=NljIHlZRTTE)(2hrs 40mins)completed<br>
 
 - ### `Javascript`
-    - [Education](https://www.youtube.com/watch?v=dMZujoGxjRo)(2hrs)<br>
-    - [PokeMon](https://www.youtube.com/watch?v=T-VQUKeSU1w)(40mins)<br>
+    - [Education](https://www.youtube.com/watch?v=dMZujoGxjRo)(2hrs)completed<br>
+    - [PokeMon](https://www.youtube.com/watch?v=T-VQUKeSU1w)(40mins)completed<br>
