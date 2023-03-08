@@ -41,7 +41,7 @@ As part of this program, we have listed the following Student Assessment Learnin
     - [Social Media](https://www.youtube.com/watch?v=NljIHlZRTTE)(2hrs 40mins)<br>
 
 - ### `Javascript`
-    - [Education](https://www.youtube.com/watch?v=dMZujoGxjRo)(2hrs)<br>
+    - [E-commerce](https://www.youtube.com/watch?v=P8YuWEkTeuE)(2hrs)<br>
     - [PokeMon](https://www.youtube.com/watch?v=T-VQUKeSU1w)(40mins)<br>
     
 - ### `Sample assessments figma link`
