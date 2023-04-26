@@ -46,7 +46,7 @@ As part of this program, we have listed the following Student Assessment Learnin
     
 - ### `Sample assessments figma link`
     - [https://www.figma.com/file/CjLeuCyQ8ZCDYBQvu6XtgW/Tracker?node-id=0%3A1&t=dDbyO0bbssO248eK-0](https://www.figma.com/file/CjLeuCyQ8ZCDYBQvu6XtgW/Tracker?node-id=0%3A1&t=dDbyO0bbssO248eK-0)<br>
-    [Use API Link](https://randomuser.me/api/?results=10)
+    [User API Link](https://randomuser.me/api/?results=10)
     
     - [https://www.figma.com/file/X1tzzLpeIx02EJQh8NW0DL/wizard-house?node-id=39-461&t=dTHipuhWERBzEiqz-0](https://www.figma.com/file/X1tzzLpeIx02EJQh8NW0DL/wizard-house?node-id=39-461&t=dTHipuhWERBzEiqz-0)<br>
     [Wizard students Api](https://hp-api.onrender.com/api/characters/students)<br>
