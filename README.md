@@ -49,4 +49,5 @@ As part of this program, we have listed the following Student Assessment Learnin
     [Use API Link](https://randomuser.me/api/?results=10)
     
     - [https://www.figma.com/file/X1tzzLpeIx02EJQh8NW0DL/wizard-house?node-id=39-461&t=dTHipuhWERBzEiqz-0](https://www.figma.com/file/X1tzzLpeIx02EJQh8NW0DL/wizard-house?node-id=39-461&t=dTHipuhWERBzEiqz-0)<br>
-    [Wizard students Api](https://hp-api.onrender.com/api/characters/students)
+    [Wizard students Api](https://hp-api.onrender.com/api/characters/students)<br>
+    [Wizard staff Api](https://hp-api.onrender.com/api/characters/staff)<br>
