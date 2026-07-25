@@ -38,7 +38,8 @@
     - [CSS advanced](https://www.youtube.com/watch?v=-G-zic_LS0A&pp=ygUPY3NzIGZ1bGwgY291cnNl) (11hrs 37mins)<br>
 
 - ### `Javascript`
-    - [Javascript](https://www.youtube.com/watch?v=PkZNo7MFNFg&t=21s)(3hrs 20mins)<br>
+    - [Javascript](https://www.youtube.com/watch?v=PkZNo7MFNFg&t=21s) (3hrs 20mins)<br>
+    - [Advanced Javascript](https://www.youtube.com/watch?v=lfmg-EJ8gm4&pp=ygUWamF2YXNjcmlwdCBmdWxsIGNvdXJzZQ%3D%3D) (12hrs)<br>
 
 ## Assessments
 
