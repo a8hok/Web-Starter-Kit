@@ -34,7 +34,8 @@
     - [HTML advanced](https://www.youtube.com/watch?v=zutb5Clb_0Y) (5hr 20mins)<br>
 
 - ### `CSS`
-    - [CSS](https://www.youtube.com/watch?v=ieTHC78giGQ)(1hr 25mins)<br>
+    - [CSS](https://www.youtube.com/watch?v=ieTHC78giGQ) (1hr 25mins)<br>
+    - [CSS advanced](https://www.youtube.com/watch?v=-G-zic_LS0A&pp=ygUPY3NzIGZ1bGwgY291cnNl) (11hrs 37mins)<br>
 
 - ### `Javascript`
     - [Javascript](https://www.youtube.com/watch?v=PkZNo7MFNFg&t=21s)(3hrs 20mins)<br>
