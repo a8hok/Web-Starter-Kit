@@ -22,7 +22,8 @@
 ## Frontend Development
 
 - ### `About Browser`
-    - [How browser works?](https://www.youtube.com/watch?v=DuSURHrZG6I)(10mins)<br>
+    - [How browser works?](https://www.youtube.com/watch?v=DuSURHrZG6I) (10mins)<br>
+    - [How internet works?](https://www.youtube.com/watch?v=zN8YNNHcaZc&pp=ygURaG93IGJyb3dzZXIgd29ya3M%3D) (1hr 45mins)<br>
     
 - ### `Document Object Model`
     - [DOM](https://www.youtube.com/watch?v=ipkjfvl40s0)(10mins)<br>
