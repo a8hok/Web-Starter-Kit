@@ -11,6 +11,8 @@
 - ### `Git and Github`
     - [Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)(40mins)<br>
     - [Github](https://www.youtube.com/watch?v=RGOj5yH7evk&t=1s)(1hr 20mins)<br>
+    - [Git Adanced](https://www.youtube.com/watch?v=heXQnM99oAI)(6hrs)<br>
+    - [Github Foundation course](https://www.youtube.com/watch?v=Jdc0i7RcBv8)(10hrs)<br> 
 
 - ### `Chrome developer tools`
     - [developer tool](https://www.youtube.com/watch?v=y0ue4ZZlZwg)(25mins)<br>
