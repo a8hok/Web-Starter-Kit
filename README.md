@@ -6,11 +6,11 @@
     - [Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop)(15mins)<br>
 
 - ### `Code Editor`
-    - [Visual Studio Code](https://www.youtube.com/watch?v=WPqXP_kLzpo)(1hr 30mins)<br>
+    - [Visual Studio Code](https://www.youtube.com/watch?v=mAFoROnOfHs&pp=ygUiZ2l0IGFuZCBnaXRodWIgY291cnNlIGZyZWVjb2RlY2FtcA%3D%3D)(1hr 30mins)<br>
 
 - ### `Git and Github`
     - [Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)(40mins)<br>
-    - [Github](https://www.youtube.com/watch?v=RGOj5yH7evk&t=1s)(1hr 10 mins)<br>
+    - [Github](https://www.youtube.com/watch?v=RGOj5yH7evk&t=1s)(1hr 20mins)<br>
 
 - ### `Chrome developer tools`
     - [developer tool](https://www.youtube.com/watch?v=y0ue4ZZlZwg)(25mins)<br>
