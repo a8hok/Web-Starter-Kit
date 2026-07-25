@@ -26,7 +26,8 @@
     - [How internet works?](https://www.youtube.com/watch?v=zN8YNNHcaZc&pp=ygURaG93IGJyb3dzZXIgd29ya3M%3D) (1hr 45mins)<br>
     
 - ### `Document Object Model`
-    - [DOM](https://www.youtube.com/watch?v=ipkjfvl40s0)(10mins)<br>
+    - [DOM](https://www.youtube.com/watch?v=ipkjfvl40s0) (10mins)<br>
+    - [How DOM manipulation works?](https://www.youtube.com/watch?v=5fb2aPlgoys&t=92s&pp=ygUNaHB3IGRvbSB3b3Jrc9IHCQmjCwGHKiGM7w%3D%3D) (2hr 40mins)<br>
     
 - ### `HTML`
     - [HTML](https://www.youtube.com/watch?v=pQN-pnXPaVg)(2hrs)<br>
